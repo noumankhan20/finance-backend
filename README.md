@@ -108,7 +108,7 @@ Login and receive a JWT token.
 **Request body:**
 ```json
 {
-  "email": "admin@example.com",
+  "email": "nouman@example.com",
   "password": "yourpassword"
 }
 ```
@@ -136,8 +136,8 @@ Create a new user with an assigned role.
 **Request body:**
 ```json
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Nouman Khan",
+  "email": "nouman@example.com",
   "password": "securepassword",
   "phoneNo": "9876543210",
   "role": "analyst"
@@ -239,7 +239,7 @@ Returns aggregated summary data for the finance dashboard.
       { "_id": { "category": "salary", "type": "income" }, "total": 50000 }
     ],
     "monthlyData": [
-      { "year": 2026, "month": 3, "type": "income", "total": 25000 }
+      { "total": 25000 , "year": 2026, "month": 4, "type": "income" }
     ]
   }
 }
